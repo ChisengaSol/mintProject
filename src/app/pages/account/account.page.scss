@@ -1,0 +1,66 @@
+#outer
+{
+  background: #E5E5E5;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+#inner{
+  margin: auto;
+  width: 80%;
+  background: white;
+  border-radius: 5%;
+  padding: 10px;
+  height: 197px;
+}
+img
+{
+  width: 91px;
+  height: 100px;
+  border-radius: 10px;
+}
+.div1{
+  float: right;
+}
+.buttons-div{
+    //background-color: #2185C5;
+    height: auto;
+    margin: 0 auto;
+    min-height: 500px;
+    position: relative;
+    width: 800px;
+}
+// .inside-button{
+//   padding-top: 5px;
+// }
+.profile-btn{
+  margin-top:30px;
+  margin-left: 35px;
+  --background: white;
+  color:black;
+}
+ion-button{
+  width: 300px;
+}
+.update-btn{
+  margin-top:200px;
+  margin-left: 35px;
+  --background: #FF5722;
+  border-radius: 30%;
+
+}
+#subs{
+  //text-align: center;
+  width: 233px;
+  height: 82px;
+  //top: 132px;
+  //left: 50px;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 41.45px;
+  //padding-top: 10px;
+  padding-left: 20px;
+}

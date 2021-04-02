@@ -1,0 +1,56 @@
+<!-- <ion-header>
+  <ion-toolbar>
+
+    <ion-title>landingpage</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+
+<ion-content>
+  <div id = outer>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <div id=subs>
+      <p id=subs>Payment</p>
+    </div>
+    <div class= "login-section ion-padding">
+      <div class="login-form ion-padding">
+        <div class ="form-input">
+          <ion-item color="transparent">
+            <div><ion-label position="floating">Issue date</ion-label></div>
+            <div></div><ion-input type="date"></ion-input>
+          </ion-item>
+        </div>
+        <div class ="form-input">
+          <ion-item color="transparent">
+            <ion-label position="floating">Expiry date</ion-label>
+            <ion-input type="date"></ion-input>
+          </ion-item>
+        </div>
+      </div>
+    </div>
+
+    <p style="padding-left:10%;">Payment Method</p>
+    <div id=inner>
+
+      <div>
+        <table>
+          <thead>
+        </thead>
+        <tbody>
+          <tr *ngFor = "let paymentMethod of paymentMethods">
+          <td style="margin-bottom: 50px;"><input type="radio" id="" name="">{{paymentMethod.name}}</td>
+          </tr>
+        </tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <div class="div1">Total</div><div class="div2">$100.0</div>
+    </div>
+    <div class= "payment-btn">
+      <ion-button size="large" class = "login-button" (click) =  "paymentPopup()">Proceed to payment</ion-button>
+    </div>
+  </div>
+</ion-content>

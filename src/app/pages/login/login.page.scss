@@ -1,0 +1,169 @@
+ion-content{
+  --background:#E5E5E5;
+}
+#outer{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+// .logo{
+//   display: block;
+//   margin-top: auto;
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-bottom: auto;
+//   width: 50%;
+//   }
+  .img-container {
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    padding-left: 5%;
+  }
+
+  .inner-class span{
+    position: absolute;
+    bottom: 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    padding-left:35%;
+
+  }
+#inner{
+  width: 100%;
+  height: 40%;
+  top: 0;
+  margin: 0 auto;
+  position: relative;
+  background:#FFFFFF;
+  border-bottom-left-radius: 46px;
+  border-bottom-right-radius: 46px;
+  //url("assets/logo.png") no-repeat;
+}
+#inner2{
+  bottom: 0;
+}
+a{
+  color:#FF5722;
+  text-align: left;
+  padding-left: 5%;
+}
+
+.action-button{
+  text-align: center;
+
+    .login-button{
+      --background: #FF5722;
+      border-radius: 30%;
+
+      width: 100%;
+      }
+    }
+// .main-layer{
+//   background: white;
+//   width: 100%;
+//   max-width: 500px;
+//   height: 100%;
+//   right: 0;
+//   left: 0;
+//   top:0;
+//   bottom: 0;
+//   position: fixed;
+//   margin:auto;
+//   border-bottom-left-radius: 46px;
+//   border-bottom-right-radius: 46px;
+// }
+
+// .login-top{
+//   height: 40vh;
+//   width: 100%;
+//   max-width: 500px;
+//   background: grey;
+//   right: 0;
+//   left: 0;
+//   top:0;
+  // position: fixed;
+  // margin:auto;
+  // border-bottom-left-radius: 46px;
+  // border-bottom-right-radius: 46px;
+// }
+
+// .section-2{
+//   width: 100%;
+//   height: 400%;
+//   background: #ccc;
+//  .login-section{
+
+//   .heading{
+//     margin-bottom: 20px;
+//     h1{
+//       font-size: 1.6rem;
+//       font-weight: bolder;
+//     }
+//     p{
+//       margin-top: 20px;
+//       font-size: 1rem;
+//       color: #7b7b7b;
+//     }
+
+//   }
+//   .login-form{
+//     .form-input{
+//       position: relative;
+//       margin-bottom: 10px;
+//       ion-item::part(native){
+//         padding-left: 0;
+//       }
+
+//       ion-icon{
+//         position: absolute;
+//         top: 37px;
+//         z-index: 2;
+//         font-size: 1.2rem;
+//         left: 5px;
+//       }
+//       ion-label{
+//         position: absolute;
+//         margin-left: 35px;
+//         font-weight: bolder;
+//         font-size: 0.8rem;
+//         top: 3px;
+//       }
+
+//       ion-input{
+//         font-size: 0.9rem;
+//         --padding-start: 36px;
+//         --padding-top:36px;
+//         color: 7b7b7b;
+
+//       }
+//     }
+//   }
+//   .action-button{
+//     text-align: center;
+//     .login-button{
+//       --background: #f9b801;
+//       width: 100%;
+//       font-weight: bold;
+//     }
+//     p{
+//       margin-top: 15px;
+//       font-size: 1rem;
+//       color: 7b7b7b;
+//     }
+//     .signup-button{
+//       --border-color: #b4b4b4;
+//       -color: #0000;
+//       font-weight: bold;
+//       margin-top: 100%;
+//       width: 100%;
+//     }
+//   }
+
+ //}
+ //}
+
+
