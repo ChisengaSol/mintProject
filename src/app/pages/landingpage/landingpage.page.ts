@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild} from '@angular/core';
 import {IonSlides} from '@ionic/angular';
+import {HttpClient} from '@angular/common/http';
 
 @Component({
   selector: 'app-landingpage',
@@ -13,7 +14,7 @@ export class LandingpagePage implements OnInit {
   @ViewChild('slider') slider: IonSlides;
   page = 0;
 
-  constructor() {
+  constructor(private http:HttpClient) {
     this.subscriptions = [
       {
         "id": 1,
@@ -29,7 +30,12 @@ export class LandingpagePage implements OnInit {
       },
 
     ]
-   }
+    // getServices(){
+    //   return this.http.get('https://team-minty.herokuapp.com/services');
+    //   //this.http
+    // }
+  }
+
 
   ngOnInit() {}
 
