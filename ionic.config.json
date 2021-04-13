@@ -1,5 +1,7 @@
 {
   "name": "mintproject",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

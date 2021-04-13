@@ -1,9 +1,26 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>proms</ion-title>
+    <ion-title>
+      Promotions
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Promotions</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
+  <h3>Contact Us</h3>
+
+  <div id="container">
+    <strong>Water </strong>
+    <ion-icon name="call" (click)="waterCall()"></ion-icon><br>
+    <strong>Internet </strong>
+    <ion-icon name="call" (click)="netCall()"></ion-icon><br>
+    <strong>Electricity </strong>
+    <ion-icon name="call" (click)="lightCall()"></ion-icon><br>
+  </div>
 </ion-content>
